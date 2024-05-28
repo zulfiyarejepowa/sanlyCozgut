@@ -1,0 +1,101 @@
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+.navbar {
+    border-bottom: #d1d1d3;
+}
+.bg-home {
+    background: #EAEAEC;
+    /* url(./assets/bg/home.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100% !important;
+    z-index: -1 !important;
+}
+
+.bg-transparent {
+    background: transparent !important;
+}
+
+.bg-about {
+    /* background: url(./assets/bg/about.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 130px;
+    padding-top: 160px;
+}
+
+.profile-active {
+    background-color: white !important;
+    color: #532C8C !important;
+}
+
+.profile-active-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #532C8C !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: white !important;
+}
+
+.placeholder1::placeholder {
+    color: #ffffff50 !important;
+}
+
+.active {
+    color: #532C8C!important;
+}
+.nav-item:hover {
+    background-color: #2E318C;
+    opacity: 0.9;
+    border-radius: 20%;
+    font-size: 16px;
+
+}
+.nav-item:hover {
+    .nav-link {
+        color: #fff;
+    }
+}
+#button {
+    background-color: #2E318C;
+    color: #fff;
+    opacity: 0.9;
+}
+#button:hover {
+    background-color: #2E318C;
+    color: #fff;
+    opacity: 1;
+    font-size: 22px;
+}
+#contactIcons {
+    background-color: #2E318C;
+}
+#contactButton {
+    background-color: #2E318C;
+    color: #fff;
+    opacity: 0.9;
+}
+#contactButton:hover {
+    opacity: 1;
+}
+/* .SignIn {
+    background-color: #522C8C;
+} */
+
+/* #2E318C */
+/* #522C8C */
