@@ -94,10 +94,10 @@ const Home = () => {
                 <div className="row">
                     <div className="col-xl-7">
                         <div className="position-relative mb-5">
-                            <img src={img3} alt="" className="img-fluid position-absolute" style={{ left: "5%" }} />
-                            <img src={img4} alt="" className="img-fluid position-absolute" style={{ left: "100px", top: "265px" }} />
-                            <img src={img5} alt="" className="img-fluid position-absolute" style={{ top: "41px", right: "110px" }} />
-                            <img src={img6} alt="" className="img-fluid position-absolute" style={{ top: "-30px", right: "12%", zIndex: "-1" }} />
+                            {/* <img src={img3} alt="" className="img-fluid position-absolute" style={{ left: "5%" }} /> */}
+                            <img src={img4} alt="" className="img-fluid position-absolute" style={{ left: "100px", top: "265px" }} id="mainImg" />
+                            <img src={img5} alt="" className="img-fluid position-absolute" style={{ top: "41px", right: "110px" }} id="mainImg"/>
+                            {/* <img src={img6} alt="" className="img-fluid position-absolute" style={{ top: "-30px", right: "12%", zIndex: "-1" }} /> */}
                         </div>
                     </div>
                     <div className="col-xl-5">

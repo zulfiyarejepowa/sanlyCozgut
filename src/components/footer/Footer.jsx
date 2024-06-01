@@ -5,7 +5,7 @@ import Home from "../../pages/interface/main/Home"
 const Footer = () => {
     return (
         <>
-            <div className="container mt-5">
+            <div className="footer container mt-5">
                 <div className="row justify-content-between">
                     <div className="col-xl-3">
                         {/* <div className="h4 mb-4">Sanly Çözgüt</div> */}

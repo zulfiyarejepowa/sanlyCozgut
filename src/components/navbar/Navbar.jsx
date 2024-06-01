@@ -95,8 +95,8 @@ const Navbar = () => {
                         <div className="col-xl-6">
                             <div className="position-relative">
                                 {/* <img src={scimg} alt="" className="img-fluid mx-auto rounded-5"/> */}
-                                <img src={img1} alt="" className="img-fluid rounded-5" />
-                                <img src={img2} alt="" className="img-fluid rounded-4 position-absolute w-25" style={{ bottom: "-18%", left: "-10%" }} />
+                                <img src={img1} alt="" className="img-fluid rounded-5 position-absolute" id="main" />
+                                {/* <img src={img2} alt="" className="img-fluid rounded-4 position-absolute w-25" style={{ bottom: "-18%", left: "-10%" }} /> */}
                             </div>
                         </div>
                     </div>

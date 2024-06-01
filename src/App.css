@@ -99,3 +99,39 @@
 
 /* #2E318C */
 /* #522C8C */
+
+
+/* media quaries */
+@media (max-width: 1440px) {
+    #mainImg {
+        display: none;
+    }
+    #main {
+        display: none;
+    }
+    .footer > div {
+        flex-direction: column;
+    }
+  }
+  @media (min-width: 1440px) {
+    #mainImg {
+        display: block;
+    }
+    #main {
+        display: block;
+    }
+    .footer > div {
+        flex-direction: row;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer > div {
+        flex-direction: column;
+    }
+  }
+  @media (min-width: 768px) {
+    .footer > div {
+        flex-direction: row;
+    }
+  }
